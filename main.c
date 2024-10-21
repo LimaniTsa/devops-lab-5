@@ -1,5 +1,6 @@
+#include <stdio.h>
 
-all:
-	gcc -o myprogram main.c
-clean: 
-	rm -f myprogram
+int main(){
+	printf("Hello world!");
+	return 0;
+}
